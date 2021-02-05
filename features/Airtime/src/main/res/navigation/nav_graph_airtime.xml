@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_airtime"
+    app:startDestination="@id/airtime">
+
+
+    <fragment
+        android:id="@+id/airtime"
+        android:name="com.jamesnyakush.digipay.airtime.fragment.Airtime"
+        android:label="airtime_fragment"
+        tools:layout="@layout/airtime_fragment" >
+        <action
+            android:id="@+id/actionToWallet"
+            app:destination="@id/wallet" />
+        <action
+            android:id="@+id/actionToMpesa"
+            app:destination="@id/mpesa" />
+        <action
+            android:id="@+id/actionToEarnings"
+            app:destination="@id/earnings" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/mpesa"
+        android:name="com.jamesnyakush.digipay.airtime.fragment.Mpesa"
+        android:label="mpesa_fragment"
+        tools:layout="@layout/mpesa_fragment" />
+    <fragment
+        android:id="@+id/wallet"
+        android:name="com.jamesnyakush.digipay.airtime.fragment.Wallet"
+        android:label="wallet_fragment"
+        tools:layout="@layout/wallet_fragment" />
+    <fragment
+        android:id="@+id/earnings"
+        android:name="com.jamesnyakush.digipay.airtime.fragment.Earnings"
+        android:label="earnings_fragment"
+        tools:layout="@layout/earnings_fragment" />
+
+</navigation>

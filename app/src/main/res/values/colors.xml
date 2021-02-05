@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2C3E50</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#2C3E50</color>
+    <color name="themeColor">#2C3E50</color>
+
+    <!--normal colors-->
+    <color name="darkTextColor">#020000</color>
+    <color name="underline_color">#8d8d8d</color>
+
+    <!--colors for light mode-->
+    <color name="contentTextColor">#2C3E50</color>
+    <color name="register_bk_color">#2C3E50</color>
+    <color name="login_bk_color">#fff</color>
+    <color name="whiteTextColor">#fff</color>
+    <color name="primaryTextColor">#2C3E50</color>
+
+    <color name="keyboard_background_color">#34495e</color>
+    <color name="keyboard_divider">#2c3e50</color>
+    <color name="keyboard_pressed">#95a5a6</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="zero">0.0</string>
+    <string name="airtime_purchased">Airtime purchased</string>
+    <string name="today">Today</string>
+    <string name="total">Total</string>
+    <string name="earnings_today">Earnings Today</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="confirm">Confirm</string>
+</resources>

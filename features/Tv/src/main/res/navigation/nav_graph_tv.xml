@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_tv"
+    app:startDestination="@id/payFragment">
+
+    <fragment
+        android:id="@+id/payFragment"
+        android:name="com.jamesnyakush.digipay.tv.fragment.PayFragment"
+        android:label="PayFragment"
+        tools:layout="@layout/pay_fragment" >
+        <action
+            android:id="@+id/action_payFragment_to_kwese"
+            app:destination="@id/kwese" />
+        <action
+            android:id="@+id/action_payFragment_to_zuku"
+            app:destination="@id/zuku" />
+        <action
+            android:id="@+id/action_payFragment_to_startimes"
+            app:destination="@id/startimes" />
+        <action
+            android:id="@+id/action_payFragment_to_dstv"
+            app:destination="@id/dstv" />
+        <action
+            android:id="@+id/action_payFragment_to_goTv"
+            app:destination="@id/goTv" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/kwese"
+        android:name="com.jamesnyakush.digipay.tv.fragment.Kwese"
+        android:label="Kwese"
+        tools:layout="@layout/kwese_fragment" />
+
+    <fragment
+        android:id="@+id/zuku"
+        android:name="com.jamesnyakush.digipay.tv.fragment.Zuku"
+        android:label="Zuku"
+        tools:layout="@layout/zuku_fragment" />
+
+    <fragment
+        android:id="@+id/startimes"
+        android:name="com.jamesnyakush.digipay.tv.fragment.Startimes"
+        android:label="Startimes"
+        tools:layout="@layout/startimes_fragment" />
+
+    <fragment
+        android:id="@+id/dstv"
+        android:name="com.jamesnyakush.digipay.tv.fragment.Dstv"
+        android:label="Dstv"
+        tools:layout="@layout/dstv_fragment" />
+
+    <fragment
+        android:id="@+id/goTv"
+        android:name="com.jamesnyakush.digipay.tv.fragment.GoTv"
+        android:label="GoTv"
+        tools:layout="@layout/go_tv_fragment" />
+</navigation>

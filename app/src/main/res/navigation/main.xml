@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.jamesnyakush.digipay.ui.home.mainfrag.HomeFragment"
+        android:label="Digipay"
+        tools:layout="@layout/home_fragment" />
+
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.jamesnyakush.digipay.ui.home.aboutapp.AboutFragment"
+        android:label="about_fragment"
+        tools:layout="@layout/about_fragment" />
+
+    <fragment
+        android:id="@+id/shareFragment"
+        android:name="com.jamesnyakush.digipay.ui.home.share.ShareFragment"
+        android:label="share_fragment"
+        tools:layout="@layout/share_fragment" />
+
+    <fragment
+        android:id="@+id/helpFragment"
+        android:name="com.jamesnyakush.digipay.ui.home.help.HelpFragment"
+        android:label="help_fragment"
+        tools:layout="@layout/help_fragment" />
+
+</navigation>

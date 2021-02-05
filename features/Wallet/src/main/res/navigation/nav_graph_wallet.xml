@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_wallet"
+    app:startDestination="@id/loadWallet2">
+
+    <fragment
+        android:id="@+id/loadWallet2"
+        android:name="com.jamesnyakush.digipay.wallet.fragment.LoadWallet"
+        android:label="Load Wallet"
+        tools:layout="@layout/load_wallet_fragment" >
+        <action
+            android:id="@+id/actionToWithdraw"
+            app:destination="@id/withdraw" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/withdraw"
+        android:name="com.jamesnyakush.digipay.wallet.fragment.Withdraw"
+        android:label="Withdraw"
+        tools:layout="@layout/withdraw_fragment" />
+</navigation>

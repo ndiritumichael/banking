@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">AirtimeZone</string>
+
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="hello_blank_fragment">tee</string>
+    <string name="textlog">U can withdraw ur cash or earnings from the form down below but with a withdrawal charge of 23 kshs</string>
+    <string name="appaot">Kenya\'s leading digital airtime distribution and payment platform that enables airtime users to earn from airtime purchased by their referals/customers, buy services such as KPLC tokens and pay TV, pay for Nairobi County Government Services, contribute NHIF, pay their bills such as KPLC post paid, Nairobi Water, play Charity Sweepstake and any other utility and merchant services that we may aggregate in future.</string>
+    <string name="airtime_text">With Airtimezone limited u can buy airtime in different way like with airtime, wallet and earnings more like okoa airtime will be coming soon</string>
+
+
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+    <string name="this_is_login_svg">This is login svg</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="login">Login</string>
+    <string name="need_an_account">Need an account?</string>
+    <string name="promocode">PromoCode</string>
+    <string name="subscription">Subscription</string>
+    <string name="register">Register</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="enter_amount">Enter Amount</string>
+    <string name="pay">Pay</string>
+    <string name="enter_phone">Enter Phone</string>
+    <string name="enter_meter">Enter Meter</string>
+    <string name="kenya_power_logo">kenya power logo</string>
+    <string name="till_number_505918">Till number: 505918</string>
+    <string name="buy_goods_and_services">Buy Goods and Services</string>
+    <string name="lipa_na_m_pesa">Lipa na M-PESA</string>
+    <string name="mpesa_icon">mpesa icon</string>
+    <string name="load_wallet">Load Wallet</string>
+    <string name="withdraw">Withdraw</string>
+    <string name="kwese_icon">kwese icon</string>
+    <string name="kwese">Kwese</string>
+    <string name="zuku_icon">zuku icon</string>
+    <string name="zuku">Zuku</string>
+    <string name="startimes">Startimes</string>
+    <string name="startimes_icon">startimes icon</string>
+    <string name="dstv">Dstv</string>
+    <string name="dstv_icon">dstv icon</string>
+    <string name="gotv">GoTv</string>
+    <string name="gotv_icon">gotv icon</string>
+    <string name="title_airtime">Airtime</string>
+    <string name="title_electricity">Electricity</string>
+    <string name="title_members">Members</string>
+    <string name="title_statement">Statement</string>
+    <string name="title_tv">Tv</string>
+    <string name="title_wallet">Wallet</string>
+    <string name="title_water">Water</string>
+
+    <string name="forgot_password">Forgot password?</string>
+    <string name="paybills">Paybills</string>
+    <string name="home">Home</string>
+    <string name="about">About</string>
+    <string name="share">Share</string>
+    <string name="help">Help</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_members"
+    app:startDestination="@id/member">
+
+    <fragment
+        android:id="@+id/member"
+        android:name="com.jamesnyakush.digipay.members.fragment.Member"
+        android:label="Members"
+        tools:layout="@layout/member_fragment" />
+
+</navigation>

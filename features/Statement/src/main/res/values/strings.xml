@@ -1,0 +1,5 @@
+<resources>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="full_statement">Full Statement</string>
+    <string name="mini_statement">Mini Statement</string>
+</resources>
